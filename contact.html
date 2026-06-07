@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Mahi Chaudhary">
+    <meta name="author" content="Mahi Chaudhary">
+
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>Mahi Chaudhary</h1>
+    </div>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="theme-btn">🌙 Theme</button>
+
+</header>
+
+<main>
+
+    <section class="card">
+
+        <h2>Get In Touch</h2>
+
+        <p>
+            Feel free to contact me for collaboration,
+            project discussions, or learning opportunities.
+        </p>
+
+    </section>
+
+    <form class="card" aria-label="Contact Form">
+
+        <label for="name">Full Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required>
+
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required>
+
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Write your message here..."
+            required></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <section class="info-cards">
+
+        <article class="card">
+            <h3>📧 Email</h3>
+            <p>mahic8317@gmail.com</p>
+        </article>
+
+        <article class="card">
+            <h3>🎓 University</h3>
+            <p>Dr. Ram Manohar Lohia Avadh University, Ayodhya</p>
+        </article>
+
+        <article class="card">
+            <h3>💻 Interests</h3>
+            <p>Web Development, AI/ML, Cloud Computing</p>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Mahi Chaudhary | All Rights Reserved</p>
+</footer>
+
+<script>
+document.getElementById("theme-btn")
+.addEventListener("click", function(){
+document.body.classList.toggle("dark-mode");
+});
+</script>
+
+</body>
+
+</html>
